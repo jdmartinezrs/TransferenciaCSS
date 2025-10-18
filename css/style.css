@@ -4,11 +4,3 @@
   box-sizing: border-box;
 }
 
-body {
-  background-image: url("https://i.pinimg.com/736x/4a/2e/47/4a2e47c7f0523d24ebb4742d7f94a586.jpg");
-  background-size: cover;        
-  background-position: center;   
-  background-repeat: no-repeat;  
-  height: 100vh;                 
-  margin: 0;                    
-}
