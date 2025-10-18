@@ -1,6 +1,179 @@
-* {
+body {
   margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2fdf7;
+  color: #1e1b1b;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 60px;
+  height: 100vh;
+  background-color: #004d40;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+.sidebar .home-icon {
+  display: block;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  margin: 20px 0;
+}
+
+.sidebar .social {
+  list-style: none;
   padding: 0;
-  box-sizing: border-box;
+  margin-top: 100px;
+}
+
+.sidebar .social li {
+  margin: 20px 0;
+}
+
+.sidebar .social a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* Header */
+.topbar {
+  margin-left: 60px;
+  background: #c8f7e8;
+  height: 70px;
+  line-height: 70px;
+  padding: 0 20px;
+}
+
+.topbar .logo {
+  display: inline-block;
+  margin: 0;
+  font-size: 20px;
+  color: #004d40;
+}
+
+.menu {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #1e1b1b;
+  margin: 0 15px;
+}
+
+.contact-info {
+  float: right;
+  color: #004d40;
+  font-weight: bold;
+}
+
+/* Content */
+.content {
+  margin-left: 60px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.promo {
+  float: left;
+  width: 55%;
+  position: relative;
+}
+
+.promo-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.promo-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+}
+
+.promo-text h2 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.promo-text span {
+  color: #2ecc71;
+}
+
+.buttons {
+  margin-top: 15px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #009688;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.btn.secondary {
+  background-color: transparent;
+  border: 2px solid white;
+  margin-left: 10px;
+}
+
+/* Appointment Form */
+.appointment {
+  float: right;
+  width: 40%;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.appointment h2 {
+  text-align: center;
+  color: #00796b;
+}
+
+form {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.row {
+  margin-bottom: 15px;
+}
+
+label {
+  display: inline-block;
+  width: 48%;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 48%;
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  display: inline-block;
+}
+
+.submit {
+  text-align: center;
+}
+
+button.btn {
+  background-color: #009688;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
