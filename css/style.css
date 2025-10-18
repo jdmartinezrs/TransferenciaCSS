@@ -82,13 +82,24 @@ body {
 
 .promo {
   float: left;
-  width: 55%;
+  width: 45%;
+  height:40%;
   position: relative;
+  display: inline-block;
+  background-color: aqua;
+  background-image: url('../img/dentist.png'); 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center; 
+  margin-left: 5%;
+  margin-top:3%;
 }
 
 .promo-img {
-  width:75%;
-  height: 60%;
+  width:75.5%;
+  margin-left: 20%;
+  margin-top: 4%;
+  display:inline-block;
   
 }
 
@@ -130,10 +141,11 @@ body {
 /* Appointment Form */
 .appointment {
   float: right;
-  width: 40%;
+  width: 50%;
   background: white;
   padding: 20px;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  display:inline-block;
 }
 
 .appointment h2 {
