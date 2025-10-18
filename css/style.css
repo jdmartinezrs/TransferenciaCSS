@@ -87,8 +87,9 @@ body {
 }
 
 .promo-img {
-  width: 100%;
-  border-radius: 10px;
+  width:75%;
+  height: 60%;
+  
 }
 
 .promo-text {
@@ -132,7 +133,6 @@ body {
   width: 40%;
   background: white;
   padding: 20px;
-  border-radius: 10px;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 
