@@ -217,8 +217,6 @@ form {
   margin-right: 15px;   
 vertical-align: top;
 margin-right: 43px;
-
-
 }
 
 
@@ -227,7 +225,7 @@ margin-right: 43px;
 label {
   display: inline-block;
   width: 48%;
-  margin-bottom: 9px;
+  margin-bottom: 20px;
 }
 
 input {
@@ -237,6 +235,7 @@ input {
      height: 40px;
   border: 1px solid #ccc;
   display: inline-block;
+  background-color: rgb(233, 237, 241);
   margin-bottom: 35px;
 }
 
@@ -248,8 +247,15 @@ button.btn {
   background-color: #009688;
   color: white;
   border: none;
-  padding: 10px 25px;
+  padding: 10px 35px;
   border-radius: 20px;
   cursor: pointer;
+  margin-top:3%;
+}
+
+button.btn i{
+  color:#f2fdf7;
+   vertical-align: middle; /* centra el ícono verticalmente con el texto */
+  margin-left: 8px;
 }
 
