@@ -164,17 +164,21 @@ form {
 
 .row {
   margin-bottom: 15px;
+   gap: 50px;
 }
 
 .row1 {
-  display: flex;
-  gap: 50px;
+  display: inline-block;
   width: 100%;
+}
 
+.row1 .field{
+  display: inline-block;
+  
 }
 
 .field label {
-  display: block; /* para que quede arriba del input */
+  display: block; 
 }
 
 .field input {
@@ -197,16 +201,22 @@ form {
  width: 93%;
 }
 
+
 .row4 label{
   display: block;
+  
+
 }
 .row4 input{
+   
   width: 230px;
 }
 .row4 .field {
   display: inline-block; 
   margin-right: 15px;   
 vertical-align: top;
+
+
 }
 
 
@@ -222,6 +232,7 @@ input {
   width: 48%;
   padding: 8px;
     border-radius: 15px;
+     height: 40px;
   border: 1px solid #ccc;
   display: inline-block;
   margin-bottom: 35px;
