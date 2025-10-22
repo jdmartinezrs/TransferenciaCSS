@@ -33,7 +33,7 @@ body {
 .sidebar .social {
   list-style: none;
   padding: 0;
-  margin-top: 100px;
+  margin-top: 470px;
 }
 
 .sidebar .social li {
@@ -150,7 +150,13 @@ header p{
   background-color: transparent;
   border: 2px solid white;
   margin-left: 10px;
+
 }
+
+.btn.secondary a {
+   vertical-align: middle;
+}
+
 
 /* Appointment Form */
 .appointment {
