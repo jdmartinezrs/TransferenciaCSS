@@ -49,28 +49,30 @@ body {
 /* Header */
 .topbar {
   margin-left: 60px;
-  background: #c8f7e8;
+  
   height: 100px;
   line-height: 70px;
-  padding: 0 20px;
+ 
 }
 
-.topbar .logo {
-  display: inline-block;
-  margin: 0;
-  font-size: 20px;
-  color: #004d40;
-}
+
 
 .menu {
   display: inline-block;
-  margin-left: 100px;
+  
+  margin: 30px 30px;
+  
+  width: 70%;
+   
 }
 
 .menu a {
+  
   text-decoration: none;
   color: #1e1b1b;
-  margin: 0 15px;
+  
+  margin-left:130px
+  
 }
 
 .contact-info {
@@ -104,12 +106,14 @@ body {
 .promo-text {
   position: absolute;
   bottom: 20px;
-  left: 20px;
+  left: 70px;
   color: white;
+  margin-bottom: 8%;
+  width: 80%
 }
 
 .promo-text h2 {
-  font-size: 28px;
+  font-size: 40px;
   margin: 0;
 }
 
@@ -117,8 +121,14 @@ body {
   color: #2ecc71;
 }
 
+.promo-text p{
+  margin-top: 5%;
+  line-height: 35px;
+  width: 90%;
+}
+
 .buttons {
-  margin-top: 15px;
+  margin-top: 40px;
 }
 
 .btn {
